@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1436458936 source:/home/mirko/Dropbox/Linux/CC++/Projects/sysmon/cpu.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<stdint.h>
+	"cpu.hpp"
+
+1436443396 source:/home/mirko/Dropbox/Linux/CC++/Projects/sysmon/helpers.cpp
+	<time.h>
+	<errno.h>
+
+1436458812 source:/home/mirko/Dropbox/Linux/CC++/Projects/sysmon/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	"helpers.hpp"
+	"cpu.hpp"
+
+1436443257 /home/mirko/Dropbox/Linux/CC++/Projects/sysmon/helpers.hpp
+
+1436458877 /home/mirko/Dropbox/Linux/CC++/Projects/sysmon/cpu.hpp
+	<stdint.h>
+

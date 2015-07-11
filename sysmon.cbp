@@ -32,6 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="cpu.cpp" />
+		<Unit filename="cpu.hpp" />
+		<Unit filename="helpers.cpp" />
+		<Unit filename="helpers.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

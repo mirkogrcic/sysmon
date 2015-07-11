@@ -10,15 +10,13 @@ using namespace std;
 
 int main()
 {
-    CPU_TIME last = *get_cpu_time();
-
-    printf("%u %u %u %u\n",
-        (unsigned int)last.user,
-        (unsigned int)last.userLow,
-        (unsigned int)last.sys,
-        (unsigned int)last.idle);
-    sleep(1000);
-    main();
-
+    CPU_TIME* last = get_cpu_time();
+    while(1){
+        sleep(1000);
+        CPU_TIME* nw = get_cpu_time();
+        cout << get_cpu_percent(last, nw) << endl;
+        delete last;
+        last = nw;
+    }
     return 0;
 }
